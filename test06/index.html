@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>06洪巧蓁個人網站</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #d3bebe;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #d6a2a2;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>=
+</head>
+<body>
+
+<h2>南投高中形象網站<h2>
+<p>南投高中位於南投縣，是一所歷史悠久、校風樸實的公立高中。學校重視全人教育，兼顧學術學習與多元發展，致力培養具備人文素養、科學精神與社會責任感的青年學子。</p>
+
+<header>
+  <img src="Winter.jpg" width="100%">
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">AI生圖教學</a></li>
+      <li><a href="#">日常生活</a></li>
+      <li><a href="#">作品內容</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>AI生圖大小</h1>
+    <img src="openfid.gif" width="300">
+    
+  </article>
+</section>
+
+<footer>
+  <p>版權所有 洪巧蓁</p>
+</footer>
+
+</body>
+</html>
+
